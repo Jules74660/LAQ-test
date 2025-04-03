@@ -71,6 +71,7 @@ const config = {
         {
           html: `<img src="/img/logos_ensemble.png" alt="Second Logo"`, 
           position: 'right', // Places it on the right side
+          to: '#'
         },
       ],
     },
