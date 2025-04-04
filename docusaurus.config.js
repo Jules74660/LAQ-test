@@ -68,11 +68,6 @@ const config = {
           label: 'Guide',
           to: 'docs/guide-utilisateur',
         },
-        {
-          html: `<img src="/img/logos_ensemble.png" alt="Second Logo"`, 
-          position: 'right', // Places it on the right side
-          to: '#'
-        },
       ],
     },
     footer: {
@@ -90,3 +85,8 @@ const config = {
 
 // **Export the config at the bottom**
 module.exports = config;
+export default {
+  url: 'https://docusaurus-2.netlify.app', // Url to your site with no trailing slash
+  baseUrl: '/', // Base directory of your site relative to your repo
+  // ...
+};
